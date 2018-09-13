@@ -1,17 +1,23 @@
-import React, { Component } from "react";
+import React from "react";
 // import Home from "./Home";
 // import Blog from "./Blog";
 // import Contact from "./Contact";
 
+
 const NavList = props => {
-    const mappedList = props.list.map(el =>
+    const mappedList = props.list.map((el,i) =>
     
-  <a href="#" className="list-group-item list-group-item-action col-5">{el}</a>
+    <a 
+        key={i} 
+        to={el}
+        className="list-group-item list-group-item-action"
+        onClick={() => props.clicked(i)}
+    >{el}</a>
     
     )
     return (
       <div className="list-group nav-list">
-{mappedList}
+        {mappedList}
       </div>
     );
   

@@ -1,3 +1,16 @@
 body{
     background: beige
 }
+.Header{
+    padding: 5px 10px;
+    background: darkolivegreen;
+}
+
+.nav-list{height:400px; width:40%;}
+.nav-list{overflow:hidden; overflow-y:scroll;}
+a{height:50px;}
+
+.details{
+    padding:5px 20px;
+    background: darkorange;
+}
