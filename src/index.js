@@ -24,7 +24,7 @@ class App extends React.Component {
 </div>
 <nav>
     <h2>
-        NAV BAR GOES HERE
+        NAV BAR GOES HERE or there
         </h2>
         <button> LIST of Countries Here</button>
        <h3>data.data.length = {data.data.length}</h3> 
